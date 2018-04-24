@@ -47,7 +47,7 @@ func main() {
 	// Generate RSA Keys
 	alicePrivateKey, alicePublicKey := generateRSAKeyPair(2048)
 
-	// Encrypt bob message
+	// Encrypt Message
 	msg := []byte("The code must be like a piece of music")
 	label := []byte("")
 	cipherText := encryptMessage(msg, label, alicePublicKey)
