@@ -1,0 +1,11 @@
+[user]
+name    = "foo"
+age     = 1
+
+[[user.slave]]
+option = true
+array   = ["foo", "bar", "buzz"]
+
+[[user.slave]]
+option = false
+array  = ["foo", "bar"]
